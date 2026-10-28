@@ -104,3 +104,12 @@ venv/
 
 # Local Wan / diffusers GPU environment
 .venv-wan/
+.claude/settings.json
+.gitignore
+config.yaml
+.gitignore
+config.yaml
+AGENT_GUIDE.md
+config.yaml
+.gitignore
+AGENT_GUIDE.md

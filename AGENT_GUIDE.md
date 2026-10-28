@@ -4,6 +4,14 @@ Start here. This is the complete operating guide and agent contract for OpenMont
 
 For architecture, key files, and conventions see [`PROJECT_CONTEXT.md`](PROJECT_CONTEXT.md).
 
+## 写文件边界（制作视频时强制）
+- 只允许创建/修改：projects/** 下的本片工作区
+- atelier 时允许：remotion-composer/projects/**（仅本片）
+- 禁止修改：tools/、lib/、skills/、pipeline_defs/、schemas/、styles/、
+  remotion-composer/src/、requirements.txt、Makefile、官方文档
+- 需要读 AGENT_GUIDE / skills / tools 时只读，不提交、不改写
+- 所有 artifact、checkpoint、素材、成片只写在 projects/<project_id>/
+
 ## First Interaction — Onboarding
 
 When the user's first message is vague, exploratory, or asks what you can do ("make me a video", "what can you do?", "help me create something", "I want to make content"), read the onboarding skill **before** doing anything else:
